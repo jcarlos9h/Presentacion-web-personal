@@ -7,12 +7,16 @@
 body  {
     margin: 10px;
     font-family: 'Times New Roman', Times, serif;
+    background-color: #fdfafa;
+  
 
 } 
 .header h1 {
-     color: #006600;
+     color: #000000;
      padding: 15px;
     font-size: 40px;
+ 
+   width: 82%;
  }   
 
 
@@ -24,13 +28,72 @@ body  {
 .contenedor {
     display: flex;
     flex-direction: row;
+   justify-content: center;
+ 
 }
 .col1{
-    width: 25%;
-    background-color: #7976a5;
+    width: 20%;
+    background-color: #c0baba;
+  
 }
 
+.col1 h2{
+ margin: 18px;
+}
+.col1 p{
+    margin: 8px;
+    font-size: 18px;
+}
+.col1 i {
+    margin: 8px;
+}
+img {
+    width: 180px;
+    height: 200px;
+    border-radius: 100px;
+    margin-left: 40px;
+  margin-top: 20px;
+}
+
+
+/* Estilos columna 2 */
 .col2{
     width: 65%;
-    background-color: #c3e6e6;
+    background-color: #afaaaa;
+}
+
+.col2  h2{
+   color: #0000ff;
+    background-color: #808080;
+}
+.col2 h3{
+    margin: 10px;
+}
+.col2 p {
+    margin: 15px;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.col2 ul{
+margin: 15px;
+list-style: none;
+font-size: 18px;
+}
+
+/* Estilos delfooter*/
+
+.footer{
+    justify-content: center;
+}
+.pie {
+    background-color: #808080;
+    padding: 20px;
+    text-align: center;
+    margin-left: 99px;
+    margin-right: 99px;
+    margin-bottom: 3px;
+}
+.pie p{
+    font-size: 20px;
 }
