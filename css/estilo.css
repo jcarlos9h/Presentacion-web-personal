@@ -21,22 +21,16 @@ body  {
     flex-direction: row;
     width: 100%;
 }
-
-.contenedor{
+.contenedor {
     display: flex;
     flex-direction: row;
 }
-.cont-1 {
-background-color: #006600;
-width: 30%;
+.col1{
+    width: 25%;
+    background-color: #7976a5;
 }
 
-.cont-2 {
- background-color: blue;
- width: 60%;
-}
-.img {
-    width: 120px;
-    height: 160px;
-float: right;
+.col2{
+    width: 65%;
+    background-color: #c3e6e6;
 }
