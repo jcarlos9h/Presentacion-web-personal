@@ -128,7 +128,7 @@ let contExLab=document.querySelector(".col2");
             cursoCaC.className="cac";
     
           conCoACo.appendChild(cursoCaC);
-          document.querySelector(".cac").innerHTML="Desarrollador Full Stack Java  (cursando Actualmente)";
+          document.querySelector(".cac").innerHTML="Desarrollador Full Stack Java   ( Agosto 2022 )";
 
           let conCodoaCodo=document.querySelector(".col2");
           let cursoCodoaCodo=document.createElement("p");
